@@ -31,6 +31,7 @@ body {
     grid-template-columns: 1fr 4fr;
     margin-left: 10%;
     padding-top: 20px;
+    align-items: center;
 }
 
 .sidebar-navigation {
