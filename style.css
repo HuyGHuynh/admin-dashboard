@@ -16,6 +16,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 5fr;
+    grid-template-rows: 150px 800px;
 }
 
 .header {
@@ -150,13 +151,34 @@ body {
     grid-row: 1 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 1fr 1fr 1fr;
+    grid-template-rows: 50px 220px 220px 220px;
     gap: 15px;
+    margin: 0 35px;
 }
 
 #project-header {
     grid-column: 1 / 3;
-    align-self: center;
+    align-self: end;
+}
+
+.card {
+    background-color: white;
+    border-left: 5px solid #facc15;
+    border-radius: 10px;
+    height: 180px;
+    position: relative;
+    padding: 16px;
+}
+
+.emoji-container img {
+    width: 24px;
+    height: auto;
+}
+
+.emoji-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 
