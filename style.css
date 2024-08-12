@@ -140,11 +140,9 @@ body {
 
 .main-content {
     background-color: #f1f5f9;
-}
-
-.main-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 420px 1fr;
 }
 
 .projects {
@@ -179,6 +177,37 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: 50px 300px;
+    gap: 15px;
+}
+
+#announcements-header {
+    align-self: end;
+}
+
+.list-container {
+    background-color: white;
+    margin-right: 30px;
+    padding: 24px;
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.announcements-list {
+    padding: 12px;
+}
+
+.announcements-list h1, .card h2 {
+    font-size: 20px;
+}
+
+.list-container > div:not(:last-child){
+    border-bottom: solid 1px lightgrey;
 }
 
 
