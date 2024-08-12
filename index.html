@@ -9,16 +9,27 @@
 <body>
     <div class="container">
         <div class="header">
+            <div class="search-bar">
+                <img src="asset/magnify.svg" alt="Search">
             <input type="search" name="search_bar" id="search_bar">
-            !<!--ringtone-->
-            <img src="#" alt="Profile picture" class="small-logo">
-            <p class="small-user-name">Huy Huynh</p>
-            <img src="#" alt="Profile picture" class="big-logo">
-            <p class="greeting">Hi there,</p>
-            <p class="big-user-name"></p>
-            <button type="button">New</button>
-            <button type="button">Upload</button>
-            <button type="button">Share</button>
+            </div>
+            <div class="big-profile">
+                <img src="asset/bell-ring.svg" alt="Notifications">
+                <img src="asset/avatar-1.jpg" alt="Profile picture" class="small-logo">
+                <p class="small-user-name bold">Huy Huynh</p>
+            </div>
+            <div class="small-profile">
+                <img src="asset/avatar-1.jpg" alt="Profile picture" class="big-logo">
+                <div class="username-text">
+                    <p class="greeting bold">Hi there,</p>
+                    <p class="big-user-name bold">Huy Huynh (HuyGHuynh)</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button type="button" class="header-button">New</button>
+                <button type="button" class="header-button">Upload</button>
+                <button type="button" class="header-button">Share</button>
+            </div>
         </div>
         <div class="sidebar">
             <div class="sidebar-home">
@@ -67,8 +78,8 @@
             </div>
         </div>
         <div class="main-content">
-            <h1 id="project-header">Your projects</h1>
             <div class="projects">
+                <h1 id="project-header">Your projects</h1>
                 <div class="card">
                     <p>Lorem ipsum</p>
                 </div>
@@ -88,38 +99,42 @@
                     <p>Lorem ipsum</p>
                 </div>
             </div>
-            <h1 id="announcements-header">Announcements</h1>
             <div class="announcements">
-                <div class="announcements-list">
-                    <h1>Header</h1>
-                    <p>Description</p>
-                </div>
-                <div class="announcements-list">
-                    <h1>Header</h1>
-                    <p>Description</p>
-                </div>
-                <div class="announcements-list">
-                    <h1>Header</h1>
-                    <p>Description</p>
+                <h1 id="announcements-header">Announcements</h1>
+                <div class="list-container">
+                    <div class="announcements-list">
+                        <h1>Header</h1>
+                        <p>Description</p>
+                    </div>
+                    <div class="announcements-list">
+                        <h1>Header</h1>
+                        <p>Description</p>
+                    </div>
+                    <div class="announcements-list">
+                        <h1>Header</h1>
+                        <p>Description</p>
+                    </div>
                 </div>
             </div>
-            <h1 id="trending-header">Trending</h1>
             <div class="trending">
-                <div class="trending-profile">
-                    <img src="#" alt="profile picture">
-                    <p>Username</p>
-                </div>
-                <div class="trending-profile">
-                    <img src="#" alt="profile picture">
-                    <p>Username</p>
-                </div>
-                <div class="trending-profile">
-                    <img src="#" alt="profile picture">
-                    <p>Username</p>
-                </div>
-                <div class="trending-profile">
-                    <img src="#" alt="profile picture">
-                    <p>Username</p>
+                <h1 id="trending-header">Trending</h1>
+                <div class="profile-container">
+                    <div class="trending-profile">
+                        <img src="#" alt="profile picture">
+                        <p>Username</p>
+                    </div>
+                    <div class="trending-profile">
+                        <img src="#" alt="profile picture">
+                        <p>Username</p>
+                    </div>
+                    <div class="trending-profile">
+                        <img src="#" alt="profile picture">
+                        <p>Username</p>
+                    </div>
+                    <div class="trending-profile">
+                        <img src="#" alt="profile picture">
+                        <p>Username</p>
+                    </div>
                 </div>
             </div>
         </div>
